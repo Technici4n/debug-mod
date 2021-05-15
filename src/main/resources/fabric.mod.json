@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "techsdebug",
+  "version": "${version}",
+  "name": "Tech's Debug Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Technici4n"
+  ],
+  "license": "LGPL v3 or later",
+  "icon": "assets/techsdebug/icon.png",
+  "environment": "*",
+  "mixins": [
+    "techsdebug.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": "1.16.x"
+  }
+}
